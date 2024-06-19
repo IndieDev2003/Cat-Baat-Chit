@@ -4,7 +4,7 @@ import { getMessaging } from 'firebase-admin/messaging';
 
 const app = initializeApp({
     credential:applicationDefault(),
-    projectId:"baatchit-ee221"
+    projectId:"baat-chit-1eb3c"
 });
 
 export const messaging = getMessaging(app)
